@@ -15,7 +15,6 @@ use frlvz\minesweeper\ConsoleApplication;
 try {
     $app = new ConsoleApplication();
     $app->run($argv);
-    x``
 } catch (Exception $e) {
     \cli\err("Error: " . $e->getMessage());
     exit(1);
